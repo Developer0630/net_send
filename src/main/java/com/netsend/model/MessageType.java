@@ -1,0 +1,5 @@
+package com.netsend.model;
+
+public enum MessageType {
+    CHAT_MESSAGE, GROUP_MESSAGE, BROADCAST_MESSAGE, DISCOVERY_REQUEST, DISCOVERY_RESPONSE, HEARTBEAT
+}
